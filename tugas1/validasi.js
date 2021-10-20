@@ -35,27 +35,8 @@ function cekform(){
         return false;
     }
 
-    var tanggal_lahir= document.getElementById('tgl_lahir').value;
-    if(tanggal_lahir === ""){
-		alert("tanggal lahir tidak boleh kosong");
-    }else{
-		var today = new Date();
-		var tgl_lahir = new Date(tanggal_lahir);
-		var year = 0;
-		if (today.getMonth() < tgl_lahir.getMonth()) {
-			year = 1;
-		} else if ((today.getMonth() == tgl_lahir.getMonth()) && today.getDate() < tgl_lahir.getDate()) {
-			year = 1;
-		}
-		var age = today.getFullYear() - tgl_lahir.getFullYear() - year;
- 
-		if(age < 0){
-			age = 0;
-		}
-		document.getElementById('usia').innerHTML = age;
-	}
-
-
+  
+    
     
     jenis_kelamin = document.getElementsById('jenis_kelamin');
     if (!jenis_kelamin.value){

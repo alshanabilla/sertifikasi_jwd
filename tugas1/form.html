@@ -30,28 +30,29 @@
       <form method="post" action="" name="frmdaftar" onsubmit="return cekform()">
         <div class="form-group">
           <label for="inputfoto">Foto</label>
-          <input type="file" class="form-control-file" id="foto">
+          <input type="file" class="form-control-file" id="foto" required>
         </div>
         <div class="form-group">
           <label for="nama_lengkap">Nama Lengkap</label>
-          <input type="text" class="form-control" id="nama_lengkap">
+          <input type="text" class="form-control" id="nama_lengkap" required>
         </div>
         <div class="form-group">
           <label for="nama_panggilan">Nama Panggilan</label>
-          <input type="text" class="form-control" id="nama_panggilan">
+          <input type="text" class="form-control" id="nama_panggilan" required>
         </div>
         <div class="form-group">
           <label for="tempat_lahir">Tempat Lahir</label>
-          <input type="text" class="form-control" id="tempat_lahir">
+          <input type="text" class="form-control" id="tempat_lahir" required>
         </div>
         <div class="form-group">
           <label for="tanggal_lahir">Tanggal Lahir</label>
-          <input type="date" class="form-control" id="tgl_lahir">
+          <input type="date" class="form-control" id="tgl_lahir" required>
         </div>
         <div class="form-group">
           <label for="usia">Usia</label>
-          <p class="form-control" id="usia"></p>
+          <input class="form-control" type="text" id="usia" name="usia" aria-label="readonly input example" readonly>
         </div>
+
         <div class="form-group">
           <label for="jenis_kelamin">Jenis Kelamin</label><br>
           <div class="form-check form-check-inline">
