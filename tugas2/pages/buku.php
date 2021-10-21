@@ -1,6 +1,6 @@
 <div class="container">
 	<h2 class="mx-3">Tampil Data Buku</h2>
-	<a class="btn btn-primary mx-3" href="index.php?p=anggota-input">Tambah Buku</a>
+	<a class="btn btn-primary mx-3" href="index.php?p=buku-input">Tambah Buku</a>
 	<div class="container py-4">
 			<table class="table">
 				<thead class="thead-dark">
