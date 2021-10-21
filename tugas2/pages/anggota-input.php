@@ -19,8 +19,8 @@ $result = mysqli_fetch_array($q_id_anggota);
 			<label for="jenis_kelamin">Jenis Kelamin</label>
 			<select class="form-control" id="jenis_kelamin" name="jenis_kelamin">
 				<option disabled selected>Pilih Jenis Kelamin</option>
-					<option value="pr">Perempuan</option>
-					<option value="lk">Laki-Laki</option>
+					<option value="Wanita">Wanita</option>
+					<option value="Pria">Pria</option>
 			</select>
 		</div>
 		<div class="form-group">
