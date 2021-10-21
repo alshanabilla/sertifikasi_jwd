@@ -26,7 +26,7 @@ $result = mysqli_fetch_array($q_id_buku);
 		</div>
 		<div class="form-group">
 			<label for="pengarang">Pengarang</label>
-			<input type="text" name="pengarang"  class="form-control" id="tpengarang">
+			<input type="text" name="pengarang"  class="form-control" id="pengarang">
 		</div>
 		<div class="form-group">
 			<label for="penerbit">Penerbit</label>
