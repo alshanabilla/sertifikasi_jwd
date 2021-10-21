@@ -33,7 +33,7 @@
 						<td><?= $r_tampil_buku['penerbit']; ?></td>
 						<td>
 							<a class="btn btn-warning" href="index.php?p=buku-edit&id=<?php echo $r_tampil_buku['idbuku'];?>">Ubah</a>
-							<a class="btn btn-danger" href="proses/buku-hapus.php?id=<?php echo $r_tampil_buku['idbuku']; ?>">Hapus</a>
+							<a class="btn btn-danger" href="proses/buku-hapus.php?id=<?php echo $r_tampil_buku['idbuku']; ?>" onclick="return confirm('Yakin Hapus?')">Hapus</a>
 						</td>
 					</tr>
 

@@ -41,7 +41,7 @@
 							<td><?= $r_transaksi['tglpinjam']; ?></td>
 							<td>
 								<a class="btn btn-warning"  href="cetak/nota-peminjaman.php?&id=<?php echo $r_transaksi['idtransaksi']; ?>" target="_blank">Ubah</a>
-								<a class="btn btn-danger" href="proses/pengembalian-proses.php?&id=<?php echo $r_transaksi['idtransaksi']; ?>">Hapus</a>
+								<a class="btn btn-danger" href="proses/pengembalian-proses.php?&id=<?php echo $r_transaksi['idtransaksi']; ?>" onclick="return confirm('Yakin Hapus?')">Hapus</a>
 							</td>
 						</tr>
 
